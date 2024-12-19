@@ -124,7 +124,7 @@ class Driver {
         else {
             a=(int)ran.nextInt(16);
             System.out.println("Here comes a new customer!\n\n" +
-                    "He/She wants a2 "+
+                    "He/She wants a "+
                     change(products.get(a).type) +
                     ". \n\n" +
                     "You should satisfy his/her needs.");
